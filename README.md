@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WebDev Learning Hub
 
-## Getting Started
+A single website + repo where I practice web development and document what I learn.  
+It includes notes, examples, and mini builds for frontend and backend topics.
 
-First, run the development server:
+## Screenshots
 
+![View 1](./public/view/view1.png)
+![View 2](./public/view/view2.png)
+![View 3](./public/view/view3.png)
+
+## Why this project exists
+
+I wanted one place to learn and also ship real UI pages.  
+This repo helps me revise faster and build a portfolio at the same time.
+
+## What you will find here
+
+- Topic-wise documentation and short notes.
+- Copy-paste ready examples with explanations.
+- Mini projects per topic, with goals and checklists.
+- Clean UI screens that grow step by step.
+
+## Tech I cover in this repo
+
+### Frontend
+- HTML, CSS
+- JavaScript, TypeScript
+- Vue.js, Nuxt.js
+
+### Backend
+- Node.js
+- Express.js
+- NestJS
+- MongoDB
+
+## Project structure (recommended)
+
+You can organize docs like this:
+
+- `app/` → Next.js pages and UI
+- `public/view/` → screenshots
+- `docs/`
+  - `docs/frontend/` → HTML, CSS, JS, TS, Vue, Nuxt notes
+  - `docs/backend/` → Node, Express, Nest notes
+  - `docs/database/` → MongoDB notes
+- `examples/` → small runnable examples
+- `mini-projects/` → small builds with a README per build
+
+## Local setup
+
+### Requirements
+- Node.js 18+ (recommended)
+- npm / pnpm / yarn (any one)
+
+### Install
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
