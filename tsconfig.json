@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "noUncheckedSideEffectImports": false,
     "plugins": [
       {
         "name": "next"
@@ -24,11 +25,12 @@
   },
   "include": [
     "next-env.d.ts",
+    "globals.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "src/features/home/components/HomeCodeExecutor.tsx"  ],
   "exclude": ["node_modules"]
 }
