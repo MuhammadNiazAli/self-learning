@@ -26,7 +26,7 @@ This repo helps me revise faster and build a portfolio at the same time.
 ### Frontend
 - HTML, CSS
 - JavaScript, TypeScript
-- Vue.js, Nuxt.js
+- React.js, Next.js ,Vue.js, Nuxt.js
 
 ### Backend
 - Node.js
@@ -34,25 +34,3 @@ This repo helps me revise faster and build a portfolio at the same time.
 - NestJS
 - MongoDB
 
-## Project structure (recommended)
-
-You can organize docs like this:
-
-- `app/` → Next.js pages and UI
-- `public/view/` → screenshots
-- `docs/`
-  - `docs/frontend/` → HTML, CSS, JS, TS, Vue, Nuxt notes
-  - `docs/backend/` → Node, Express, Nest notes
-  - `docs/database/` → MongoDB notes
-- `examples/` → small runnable examples
-- `mini-projects/` → small builds with a README per build
-
-## Local setup
-
-### Requirements
-- Node.js 18+ (recommended)
-- npm / pnpm / yarn (any one)
-
-### Install
-```bash
-npm install
