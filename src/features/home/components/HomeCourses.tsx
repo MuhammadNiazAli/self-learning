@@ -9,7 +9,7 @@ const baseImages = Array.from(
   (_, i) => `/courses/a${i + 1}.png`,
 );
 
-const repeatTo = 60;
+const repeatTo = 30;
 
 const marqueeImages = Array.from({ length: repeatTo }, (_, i) => {
   return baseImages[i % baseImages.length];
